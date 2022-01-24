@@ -1,0 +1,14 @@
+{
+"name": "docs/",
+"description": "docs/",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "13",
+"center": "-93.845215,47.025204,13",
+"bounds": "-149.997434,18.267981,-65.729899,61.131424",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "./bin/tippecanoe --drop-densest-as-needed --force --read-parallel --no-tile-compression '--output-to-directory=docs/' '--maximum-zoom=13' data/roads.geojson data/trails.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"roads\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 13, \"fields\": {} }, { \"id\": \"trails\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 13, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 2,\"layers\": [{\"layer\": \"roads\",\"count\": 366519,\"geometry\": \"LineString\",\"attributeCount\": 0,\"attributes\": []},{\"layer\": \"trails\",\"count\": 91198,\"geometry\": \"LineString\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
