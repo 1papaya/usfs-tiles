@@ -1,0 +1,20 @@
+{
+  "name": "usfs-tiles",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "download": "bash ./scripts/download.sh",
+    "convert": "bash ./scripts/convert.sh",
+    "preprocess": "ts-node ./scripts/preprocess.ts",
+    "build-tiles": "bash ./scripts/build-tiles.sh",
+    "build": "yarn download && yarn convert && yarn preprocess && yarn build-tiles"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "mapshaper": "^0.5.87",
+    "split": "^1.0.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
